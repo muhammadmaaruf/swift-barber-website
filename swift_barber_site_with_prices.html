@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swift Barber</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #fdfdfd;
+      color: #111;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services ul, .reviews ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .services li, .reviews li {
+      margin: 0.5rem 0;
+    }
+    .gallery img {
+      max-width: 150px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    form input, form select, form textarea, form button {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    form button {
+      background-color: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swift Barber</h1>
+    <p>Refined Cuts. Grooming Excellence at Your Doorstep.</p>
+  </header>
+
+  <section>
+    <h2>About Swift Barber</h2>
+    <p>Swift Barber was born out of a simple truth — people deserve to look their best without sacrificing time, comfort, or quality. Founded by Ma'aruf, a skilled and passionate barber, Swift Barber brings the luxury of a professional haircut right to your home. Each cut is more than a service — it’s a personal experience crafted for confidence, style, and class.</p>
+  </section>
+
+  <section class="services">
+    <h2>Services & Pricing</h2>
+    <ul>
+      <li>Classic Haircut – From ₦2,500</li>
+      <li>Skin Fade – From ₦3,000</li>
+      <li>Taper Fade – From ₦3,000</li>
+      <li>Afro Trim – From ₦2,500</li>
+      <li>Beard Trim & Line Up – From ₦1,800</li>
+      <li>Bald Cut – From ₦2,500</li>
+      <li>Children’s Haircut – From ₦2,000</li>
+      <li>Edge Up / Shape Up – From ₦1,500</li>
+      <li>Clipper Shave – From ₦1,500</li>
+      <li>Senior Citizen Cut – From ₦2,000</li>
+      <li>Hair + Beard Grooming Combo – From ₦4,000</li>
+    </ul>
+    <p><strong>Note:</strong> Prices vary depending on your location in Gombe. Transport fee applies based on distance.</p>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150" alt="Haircut sample 1">
+      <img src="https://via.placeholder.com/150" alt="Haircut sample 2">
+      <img src="https://via.placeholder.com/150" alt="Haircut sample 3">
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2>Client Reviews</h2>
+    <ul>
+      <li>“Ma'aruf is professional, quick, and my haircut always looks fresh. 10/10 service!”</li>
+      <li>“Loved the convenience of home service. No stress, just clean cuts.”</li>
+      <li>“Swift Barber lives up to the name — efficient, stylish, and reliable.”</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Book a Session</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="text" placeholder="Home Address" required />
+      <select required>
+        <option value="">Select Service</option>
+        <option>Classic Haircut</option>
+        <option>Skin Fade</option>
+        <option>Taper Fade</option>
+        <option>Afro Trim</option>
+        <option>Beard Trim & Line Up</option>
+        <option>Bald Cut</option>
+        <option>Children’s Haircut</option>
+        <option>Edge Up / Shape Up</option>
+        <option>Clipper Shave</option>
+        <option>Senior Citizen Cut</option>
+        <option>At-home Grooming Combo (Hair + Beard)</option>
+      </select>
+      <input type="date" required />
+      <input type="time" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact: 07033335280 | WhatsApp: 07033335280 | IG: @swiftbarber</p>
+    <p>Email: muhammadmaaruf78@gmail.com</p>
+  </footer>
+</body>
+</html>
